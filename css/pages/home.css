@@ -1,0 +1,294 @@
+/* home sec style start */
+.home .splide__slide img {
+  height: 550px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  position: relative;
+}
+.home .hometext {
+  width: 38%;
+  position: absolute;
+  top: 20%;
+  left: 13%;
+  z-index: 11;
+}
+.home .splide__arrow {
+  height: 4em;
+  width: 4em;
+  background: var(--color-of-border);
+  transition: all 0.5s;
+  opacity: 0.2;
+}
+.home .splide__arrow svg {
+  fill: var(--color-primary);
+}
+.home .splide__arrow:hover {
+  background-color: var(--color-secand);
+}
+.home .splide__pagination__page.is-active {
+  background-color: var(--color-secand);
+}
+.home .hometext .offer {
+  font-size: 12px;
+}
+.home .hometext h1 {
+  font-size: 60px;
+}
+.home .hometext .start {
+  color: var(--color-of-border);
+}
+.home .hometext .start span {
+  font-size: 30px;
+  color: var(--color-secand);
+  font-family: Rubik-Medium;
+}
+.home .hometext .link {
+  padding-top: 50px;
+}
+/* home sec style end */
+
+/* video sec style start */
+.video {
+  height: 550px;
+  background-image: url(../background/watch_1920x601.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.video .btnVideo {
+  border-radius: 50%;
+  font-size: 25px;
+  padding: 18px 28px;
+  background-color: transparent;
+  color: var(--color-primary);
+  border: 3px solid var(--color-primary);
+  transition: all 0.5s;
+}
+.video .btnVideo:hover {
+  transform: scale(1.1);
+}
+#lightBoxVideo {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.632);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  animation-name: test;
+  animation-duration: 0.5s;
+  z-index: 20;
+}
+@keyframes test {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+#lightBoxVideo i {
+  position: absolute;
+  top: 10%;
+  right: 20%;
+  font-size: 40px;
+  cursor: pointer;
+}
+/* video sec style end */
+
+/* new sec style start */
+.new {
+  height: 400px;
+  background-image: url(../background/img-middle-mirora1.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.new .newtext .sale {
+  color: var(--color-secand);
+}
+.new .newtext h5 {
+  font-size: 48px;
+}
+.new .newtext .we {
+  color: var(--color-of-border);
+}
+.new .newtext .link {
+  padding-top: 60px;
+}
+.new .newtext .link a {
+  padding: 14px 40px;
+  color: var(--color-secand);
+  border-color: var(--color-secand);
+}
+/* new sec style end */
+
+/* this sec style start */
+.this {
+  height: 350px;
+  background-image: url(../background/slider3-mirora2-1920x634.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.this .carousel .carousel-item .thistext {
+  width: 60%;
+}
+.this .carousel .carousel-item .thistext p {
+  font-size: 20px;
+  line-height: 24px;
+  font-family: Rubik-Regular;
+}
+.this .carousel .carousel-item .thistext h5 {
+  color: var(--color-secand);
+  text-transform: uppercase;
+}
+.carousel-indicators {
+  top: 100%;
+  margin: 60px;
+  border-radius: 50%;
+}
+.carousel-indicators .btn {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  border-top: 0;
+  border-bottom: 0;
+}
+.carousel-indicators .active {
+  background-color: var(--color-secand);
+}
+/* this sec style end */
+
+/* from sec style start */
+.from .mosttext h4::after {
+  width: 78%;
+  left: 15%;
+}
+.from .card4 a img {
+  border-radius: 6px;
+}
+.from .card4 .card-body a {
+  font-size: 18px;
+  color: var(--color-primary);
+  transition: all 0.5s;
+}
+.from .card4 .card-body a:hover {
+  color: var(--color-secand);
+}
+.from .card4 .card-body p {
+  font-size: 14px;
+  color: var(--color-of-border);
+}
+.from .card4 .card-body span {
+  color: var(--color-secand);
+  font-size: 14px;
+}
+/* from sec style end */
+
+/* photo sec style start */
+.photo {
+  border-bottom: 1px solid var(--color-line);
+  padding-bottom: 80px;
+}
+.photo .splide__arrow {
+  width: 3em;
+  height: 3em;
+  background: var(--color-of-border);
+  transition: all 0.5s;
+  opacity: 0.2;
+}
+.photo .splide__slide{
+  position: relative;
+  overflow: hidden;
+}
+.photo .splide__slide img{
+  transition: all .5s;
+}
+.photo .splide__slide::after{
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.479);
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: all .5s;
+}
+.photo .splide__slide:hover img{
+  transform: scale(1.1);
+}
+.photo .splide__slide:hover::after{
+  opacity: 1;
+}
+/* photo sec style end */
+
+/* join sec style start */
+.join .jointext h6 {
+  font-size: 24px;
+}
+.join .jointext p {
+  color: var(--color-of-border);
+  font-size: 14px;
+}
+.join .jointext .btn {
+  text-transform: capitalize;
+  background-color: var(--color-btn);
+  border: 1px solid var(--bg-dark);
+  color: var(--color-of-border);
+  padding: 14px 60px;
+  font-size: 18px;
+  transition: all 0.5s;
+  margin-bottom: 5px;
+  color: var(--color-primary);
+}
+.join .jointext .btn:hover {
+  background-color: var(--color-secand);
+}
+.join .jointext .input {
+  width: 40%;
+  padding: 14px;
+  background-color: transparent;
+  border: 1px solid var(--color-btn);
+  color: var(--color-primary);
+}
+.join .jointext .input:focus {
+  outline: none;
+}
+/* join sec style end */
+
+/* logo sec style start */
+.logo .splide__arrow {
+  width: 3em;
+  height: 3em;
+  background: var(--color-of-border);
+  transition: all 0.5s;
+  opacity: 0.2;
+}
+/* logo sec style end */
+
+/* trend sec style start */
+.trend .card2 .desgintext {
+  position: absolute;
+  top: 29%;
+  left: 10%;
+  z-index: 1;
+}
+.trend .card2 .desgintext h2 {
+  font-size: 30px;
+}
+.trend .card2 .desgintext .from {
+  font-size: 16px;
+}
+.trend .card2 .desgintext a{
+  color: var(--color-secand);
+  text-decoration: underline;
+  font-size: 14px;
+}

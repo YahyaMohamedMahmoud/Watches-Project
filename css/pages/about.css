@@ -1,0 +1,120 @@
+/* extra sec style start */
+.extratext h2 {
+  margin-bottom: 20px;
+  color: var(--color-secand);
+}
+.extratext p {
+  font-family: Prata-Regular;
+  color: var(--color-secand);
+  margin-top: 30px;
+}
+.extratext .you {
+  color: var(--color-primary);
+  line-height: 2.5;
+}
+.extratext ul li {
+  padding-top: 25px;
+  color: var(--color-secand);
+}
+/* extra sec style end */
+
+/* found sec style start */
+.found {
+  background-color: var(--color-btn);
+  padding: 30px;
+  margin-bottom: 30px;
+}
+.found span {
+  font-size: 30px;
+}
+.found h3 {
+  margin: 20px 0;
+  color: var(--color-secand);
+}
+.found p {
+  color: var(--color-of-border);
+  line-height: 2.5;
+}
+.found .mau {
+  line-height: 2.6;
+}
+.extratext .you2 {
+  line-height: 2;
+  margin-bottom: 10px;
+}
+.extratext h4 {
+  margin-top: 20px;
+  color: var(--color-secand);
+}
+.extratext span {
+  margin-inline-end: 15px;
+  color: var(--color-secand);
+}
+.extratext .top {
+  margin-top: 10px;
+  line-height: 2;
+  font-size: 14px;
+  color: var(--color-primary);
+}
+/* extra sec style end */
+.team .teamtext h4 {
+  font-size: 45px;
+  color: var(--color-secand);
+}
+.team .teamtext p {
+  line-height: 2.5;
+  color: var(--color-of-border);
+}
+.team .cardtext h5 {
+  color: var(--color-secand);
+  margin-bottom: 8px;
+  letter-spacing: 1px;
+  font-size: 25px;
+}
+.team .cardtext p {
+  color: var(--color-of-border);
+  font-size: 15px;
+}
+.team .cardteam {
+  position: relative;
+}
+.team .cardteam .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.466);
+  opacity: 0;
+  transition: all 0.5s;
+}
+.team .cardteam:hover .overlay {
+  opacity: 1;
+}
+.team .cardteam .overlay .icon {
+  position: absolute;
+  bottom: 10px;
+  left: 20%;
+}
+.team .cardteam .overlay .icon {
+  opacity: 0;
+  transition: all 0.5s;
+}
+.team .cardteam .overlay .icon a {
+  color: var(--color-primary);
+  font-size: 14px;
+  margin: 2px;
+  padding: 10px 13px;
+  background-color: var(--color-of-border);
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+.team .cardteam .overlay .icon .facebook {
+  padding: 10px 15px;
+}
+.team .cardteam .overlay:hover .icon {
+  bottom: 40px;
+  opacity: 1;
+}
+.team .cardteam .overlay .icon a:hover {
+  background-color: var(--color-secand);
+}

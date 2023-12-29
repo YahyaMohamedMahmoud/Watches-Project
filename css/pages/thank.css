@@ -1,0 +1,29 @@
+.tag{
+    height: 620px;
+    background-image: url(../background/211413.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tag .tagtext h1{
+    margin-bottom: 30px;
+    font-size: 70px;
+}
+.tag .tagtext p{
+    font-size: 20px;
+    margin-bottom: 50px;
+    font-family:Prata-Regular;
+}
+.tag .tagtext a{
+    padding: 12px 38px;
+    background-color: var(--color-secand);
+    color: var(--color-primary);
+    border-radius: 5px;
+    font-size: 20px;
+    transition: all .5s;
+}
+.tag .tagtext a:hover{
+    background-color: var(--color-btn);
+}

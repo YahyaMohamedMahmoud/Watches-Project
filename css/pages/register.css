@@ -1,0 +1,42 @@
+.log .logtext{
+    color: var(--color-of-border);
+    border-bottom: 1px solid var(--color-of-border);
+    padding-bottom: 10px;
+}
+.log .logout{
+    padding: 30px;
+    margin-inline-start: 30px;
+}
+.log .logout form i{
+    font-size: 9px;
+    color: red;
+}
+.log .logout form label{
+    text-transform: capitalize;
+    color: var(--color-of-border);
+    margin-inline-end: 20px;
+}
+.log .logout form .email{
+    margin-inline-end: 58px;
+}
+.log .logout form .pass{
+    margin-inline-end: 30px;
+}
+.log .logout form .click{
+    width: 29%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.log .logout form .link2 a{
+    color: var(--color-primary);
+    transition: all .5s;
+}
+.log .logout form .link2 a:hover{
+    color: var(--color-secand);
+}
+
+
+
+
+
+

@@ -1,0 +1,282 @@
+{
+    "watches":[
+        {
+            "name" : "lenovo ideacentre 300", 
+           "img_url":"img/15-900x900_ae58d88d-d64c-41ab-b69e-0141551d3217_450x450.jpg",
+           "img_url2":"img/15-15-900x900_1_9960da31-99f5-4e5d-a8fe-67b94bb94162_450x450.jpg",
+           "salary": 116.00 ,
+           "id":"23" 
+         },
+         {
+             "name" : "hP pavilion 22cwa", 
+            "img_url":"img/13-900x900_450x450.jpg",
+            "img_url2":"img/13-13-900x900_450x450.jpg",
+            "salary": 110.00,
+            "id":"24"  
+          },
+          {
+             "name" : "fire tablet with alexa", 
+            "img_url":"img/12-600x600_71aea5b9-a441-4439-9dc8-82a05c79706d_450x450.jpg",
+            "img_url2":"img/12-12-900x900_59fa2b16-8149-4773-8646-d521120dbce3_450x450.jpg",
+            "salary": 1.202,
+            "id":"24"  
+          },
+          {
+             "name" : "aSUS zenPad 3S", 
+            "img_url":"img/9-900x900_49b6cd89-a0d6-46d0-94a1-5ac420cb17e4_450x450.jpg",
+            "img_url2":"img/9-9-900x900_9f8599b8-64ae-4ba7-9612-ed114f61c4e8_450x450.jpg",
+            "salary": 3.00,
+            "id":"25"  
+          },
+          {
+             "name" : "leapFrog epic", 
+            "img_url":"img/14-900x900_2f710698-229c-4d61-96cc-4f362020892a_450x450.jpg",
+            "img_url2":"img/14-14-900x900_014b1b82-6c71-437d-8d7c-273c32476ac7_450x450.jpg",
+            "salary": 242.00 ,
+            "id":"26"
+          },
+          {
+             "name" : "hP notebook 15-ay011nr", 
+            "img_url":"img/11-600x600_953753b2-7a35-4391-abe5-69679f37c9b0_450x450.jpg",
+            "img_url2":"img/11-11-900x900_6499c2e2-e127-4807-8f20-bbd76686b81d_450x450.jpg",
+            "salary": 78.00 ,
+            "id":"27" 
+          },
+          {
+             "name" : "dell inspiron 24", 
+            "img_url":"img/10-600x600_450x450.jpg",
+            "img_url2":"img/10-10-900x900_450x450.jpg",
+            "salary": 1.202 ,
+            "id":"28" 
+          },
+          {
+             "name" : "hP notebook 15-ay011nr", 
+            "img_url":"img/8-900x900_66f29018-ea25-4a54-a683-3ea3bb155fc6_450x450.jpg",
+            "img_url2":"img/8-8-900x900_ab96f7e3-f775-4be6-bc57-d4746ec341ae_450x450.jpg",
+            "salary": 104.00 ,
+            "id":"29"
+          }
+    ],
+    "jewellery":[
+      {
+        "name" : "dripper squapeX by stattqualm", 
+       "img_url":"img/16-900x900_450x450.jpg",
+       "img_url2":"img/3-900x900_b958d284-0042-4ead-9ea2-c5270cd7a422_450x450.jpg",
+       "salary": 1000.00,
+       "id":"30" 
+     },
+     {
+      "name" : "iPV 6X by pioneer4you", 
+     "img_url":"img/11-900x900_6_be07a3b1-02fe-4da2-8f17-055977d3b310_450x450.jpg",
+     "img_url2":"img/7-900x900_3_450x450.jpg",
+     "salary": 64.00 ,
+     "id":"31" 
+   },
+   {
+    "name" : "squapeX dripper by stattqualm", 
+   "img_url":"img/7-900x900_3_450x450.jpg",
+   "img_url2":"img/11-900x900_6_be07a3b1-02fe-4da2-8f17-055977d3b310_450x450.jpg",
+   "salary": 1000.00 ,
+   "id":"32" 
+ },
+ {
+  "name" : "reulaux RX2/3 by wismec", 
+ "img_url":"img/4-900x900_4_5c87316f-0dd6-459c-9d7a-e952195dbfd1_450x450.jpg",
+ "img_url2":"img/3-900x900_2_db2734b3-c8bc-41cf-a081-646076e892b5_450x450.jpg",
+ "salary": 70.00,
+ "id":"33"  
+},
+{
+  "name" : "driptip kryptonite", 
+ "img_url":"img/2-900x900_4_2d43601e-8ddb-4815-82ff-256314cd85dd_450x450.jpg",
+ "img_url2":"img/5-900x900_3_450x450.jpg",
+ "salary": 80.00,
+ "id":"34"  
+}
+    ],
+    "bestsale":[
+      {
+        "name" : "lenovo ideacentre 300", 
+       "img_url":"img/15-900x900_ae58d88d-d64c-41ab-b69e-0141551d3217_450x450.jpg",
+       "img_url2":"img/15-15-900x900_1_9960da31-99f5-4e5d-a8fe-67b94bb94162_450x450.jpg",
+       "salary": 116.00 ,
+       "id":"35" 
+     },
+     {
+      "name" : "leapFrog epic", 
+     "img_url":"img/14-900x900_2f710698-229c-4d61-96cc-4f362020892a_450x450.jpg",
+     "img_url2":"img/14-14-900x900_014b1b82-6c71-437d-8d7c-273c32476ac7_450x450.jpg",
+     "salary": 242.00,
+     "id":"36"  
+   },
+   {
+    "name" : "dripper squapeX by stattqualm", 
+   "img_url":"img/16-900x900_450x450.jpg",
+   "img_url2":"img/3-900x900_b958d284-0042-4ead-9ea2-c5270cd7a422_450x450.jpg",
+   "salary": 1000.00 ,
+   "id":"37" 
+ },
+ {
+  "name" : "driptip kryptonite", 
+ "img_url":"img/2-900x900_4_2d43601e-8ddb-4815-82ff-256314cd85dd_450x450.jpg",
+ "img_url2":"img/5-900x900_3_450x450.jpg",
+ "salary": 80.00 ,
+ "id":"38" 
+},
+{
+  "name" : "iPV 6X by pioneer4you", 
+ "img_url":"img/11-900x900_6_be07a3b1-02fe-4da2-8f17-055977d3b310_450x450.jpg",
+ "img_url2":"img/7-900x900_3_450x450.jpg",
+ "salary": 64.00 ,
+ "id":"39" 
+}
+
+    ],
+    "shopView":[
+    {
+        "name" : "acer aspire AIO", 
+       "img_url":"img/1-900x900_450x450.jpg",
+       "img_url2":"img/1-1-900x900_450x450.jpg",
+       "salary": 86.00,
+       "id":"0"  
+    },
+    {
+      "name" : "acer aspire desktop", 
+     "img_url":"img/2-900x900_0ad33dee-333b-4cd4-836d-9584671c229f_450x450.jpg",
+     "img_url2":"img/4-4-900x900_450x450.jpg",
+     "salary": 86.00,
+     "id":"1"  
+   },
+   {
+    "name" : "acer aspire e 15", 
+   "img_url":"img/3-900x900_ecb32908-2236-4a74-876b-d86cc8c8005c_450x450.jpg",
+   "img_url2":"img/3-3-900x900_561829d7-2022-45af-ac9b-d896cd72a39b_450x450.jpg",
+   "salary": 86.00,
+   "id":"2"  
+ },
+ {
+  "name" : "acer aspire VX 15", 
+ "img_url":"img/4-900x900_450x450.jpg",
+ "img_url2":"img/4-4-900x900_450x450.jpg",
+ "salary": 68.00,
+ "id":"3"  
+},
+{
+  "name" : "acer r240HY bidx", 
+ "img_url":"img/6-600x600_924ed89c-d803-4835-88c8-753fb8bb8865_450x450.jpg",
+ "img_url2":"img/6-6-900x900_b34e2ec3-83cf-412e-bcfa-eaf0dd3c1337_450x450.jpg",
+ "salary": 68.00,
+ "id":"4"  
+},
+{
+  "name" : "apple iPad air 2", 
+ "img_url":"img/5-900x900_df370fe0-d823-4c36-b51d-fe1b09ef685e_450x450.jpg",
+ "img_url2":"img/5-5-900x900_92c73ad2-4423-4b07-a0c0-d453d39a4c63_450x450.jpg",
+ "salary": 68.00,
+ "id":"5"  
+},
+{
+  "name" : "aSUS uX360CA", 
+ "img_url":"img/7-900x900_450x450.jpg",
+ "img_url2":"img/7-7-900x900_450x450.jpg",
+ "salary": 98.00,
+ "id":"6"  
+},{
+  "name" : "aSUS zenBook", 
+ "img_url":"img/8-900x900_66f29018-ea25-4a54-a683-3ea3bb155fc6_450x450.jpg",
+ "img_url2":"img/8-8-900x900_ab96f7e3-f775-4be6-bc57-d4746ec341ae_450x450.jpg",
+ "salary": 104.00,
+ "id":"7"  
+},{
+  "name" : "aSUS zenPad 3S", 
+ "img_url":"img/9-900x900_49b6cd89-a0d6-46d0-94a1-5ac420cb17e4_450x450.jpg",
+ "img_url2":"img/9-9-900x900_9f8599b8-64ae-4ba7-9612-ed114f61c4e8_450x450.jpg",
+ "salary": 3.00,
+ "id":"8"  
+},{
+  "name" : "dell inspiron 24", 
+ "img_url":"img/10-600x600_450x450.jpg",
+ "img_url2":"img/10-10-900x900_450x450.jpg",
+ "salary": 1.202,
+ "id":"9"  
+},{
+  "name" : "dripper squapeX by stattqualm", 
+ "img_url":"img/16-900x900_450x450.jpg",
+ "img_url2":"img/3-900x900_2_db2734b3-c8bc-41cf-a081-646076e892b5_450x450.jpg",
+ "salary": 1000.00,
+ "id":"10"  
+},{
+  "name" : "driptip kryptonite", 
+ "img_url":"img/2-900x900_4_2d43601e-8ddb-4815-82ff-256314cd85dd_450x450.jpg",
+ "img_url2":"img/4-900x900_4_04f1aa19-128f-4a34-84fd-406f6c1c59a0_450x450.jpg",
+ "salary": 80.00,
+ "id":"11"  
+},{
+  "name" : "fire tablet with alexa", 
+ "img_url":"img/12-600x600_71aea5b9-a441-4439-9dc8-82a05c79706d_450x450.jpg",
+ "img_url2":"img/12-12-900x900_59fa2b16-8149-4773-8646-d521120dbce3_450x450.jpg",
+ "salary": 1202.00,
+ "id":"12"  
+},{
+  "name" : "hP notebook 15-ay011nr", 
+ "img_url":"img/11-600x600_953753b2-7a35-4391-abe5-69679f37c9b0_450x450.jpg",
+ "img_url2":"img/11-11-900x900_6499c2e2-e127-4807-8f20-bbd76686b81d_450x450.jpg",
+ "salary": 78.00,
+ "id":"13"  
+},{
+  "name" : "hP pavilion 22cwa", 
+ "img_url":"img/13-900x900_450x450.jpg",
+ "img_url2":"img/13-13-900x900_450x450.jpg",
+ "salary": 110.00,
+ "id":"14"  
+},{
+  "name" : "iPV 6X by pioneer4you", 
+ "img_url":"img/11-900x900_6_450x450.jpg",
+ "img_url2":"img/7-900x900_3_450x450.jpg",
+ "salary": 64.00,
+ "id":"15"  
+},{
+  "name" : "leapFrog epic", 
+ "img_url":"img/14-900x900_2f710698-229c-4d61-96cc-4f362020892a_450x450.jpg",
+ "img_url2":"img/14-14-900x900_014b1b82-6c71-437d-8d7c-273c32476ac7_450x450.jpg",
+ "salary": 242.00,
+ "id":"16"  
+},{
+  "name" : "leapFrog epic", 
+ "img_url":"img/14-900x900_2f710698-229c-4d61-96cc-4f362020892a_450x450.jpg",
+ "img_url2":"img/14-14-900x900_014b1b82-6c71-437d-8d7c-273c32476ac7_450x450.jpg",
+ "salary": 242.00,
+ "id":"17"  
+},{
+  "name" : "lenovo ideacentre 300", 
+ "img_url":"img/15-900x900_ae58d88d-d64c-41ab-b69e-0141551d3217_450x450.jpg",
+ "img_url2":"img/15-15-900x900_1_9960da31-99f5-4e5d-a8fe-67b94bb94162_450x450.jpg",
+ "salary": 116.00,
+ "id":"18"  
+},{
+  "name" : "moradin 25 rTA by iCLOUDCIG", 
+ "img_url":"img/1-900x900_1_450x450.jpg",
+ "img_url2":"img/5-900x900_3_450x450.jpg",
+ "salary": 116.00,
+ "id":"19"  
+},{
+  "name" : "rAVENSMOON tANK 157", 
+ "img_url":"img/5-900x900_3_450x450.jpg",
+ "img_url2":"img/4-900x900_4_04f1aa19-128f-4a34-84fd-406f6c1c59a0_450x450.jpg",
+ "salary": 1000.00,
+ "id":"20"  
+},{
+  "name" : "reulaux rX2/3 by wismec", 
+ "img_url":"img/4-900x900_4_04f1aa19-128f-4a34-84fd-406f6c1c59a0_450x450.jpg",
+ "img_url2":"img/3-900x900_2_db2734b3-c8bc-41cf-a081-646076e892b5_450x450.jpg",
+ "salary": 70.00,
+ "id":"21"  
+},{
+  "name" : "squapeX dripper by stattqualm", 
+ "img_url":"img/7-900x900_3_450x450.jpg",
+ "img_url2":"img/11-900x900_6_450x450.jpg",
+ "salary": 1000.00,
+ "id":"22"  
+}
+]
+}

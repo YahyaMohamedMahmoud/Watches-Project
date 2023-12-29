@@ -1,0 +1,60 @@
+/* fonts style */
+@import url("fonts.css");
+/* fonts style */
+:root{
+    --bg-dark:#242424;
+    --color-primary:white;
+    --color-secand:#a8741a;
+    --color-star:gold;
+    --color-of-border:#5a5a5a;
+    --bg-transparent:transparent;
+    --color-black:black;
+    --color-btn:#2e2e2e;
+    --color-line:#2d2d2d;
+    --color-logo:#616161;
+}
+img{
+    width: 100%;
+    display: block;
+}
+body{
+    background-color: var(--bg-dark);
+    color: var(--color-primary);
+    overflow-x: hidden;
+}
+li{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    font-family:Prata-Regular;
+    text-transform: capitalize;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family:Prata-Regular;
+    margin-bottom: 0;
+    text-transform: capitalize;
+}
+p{
+    margin-bottom: 0;
+    text-transform: capitalize;
+    font-family:Rubik-Light;
+}
+.m-80{
+    margin-top:80px;
+}
+.btn{
+    font-family:Prata-Regular;
+}
+::placeholder{
+    color: var(--color-of-border);
+}
+input:focus{
+    outline: none;
+}

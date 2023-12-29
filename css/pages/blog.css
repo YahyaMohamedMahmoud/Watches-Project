@@ -1,0 +1,44 @@
+.from .cardtext{
+    margin-top: 20px;
+    color: var(--color-of-border);
+}
+.from .cardtext h4{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.from .cardtext h4 a{
+    color: var(--color-of-border);
+    transition: all .5s;
+}
+.from .cardtext h4 a:hover{
+    color: var(--color-secand);
+}
+.from .cardtext p{
+    font-size: 15px;
+    margin-bottom: 20px;
+    font-family:Rubik-Regular;
+}
+.from .cardtext .fashion{
+    line-height: 2;
+    margin-bottom: 50px;
+    font-size: 16px;
+}
+.from .cardtext .read{
+    font-size: 17px;
+    padding: 13px 30px;
+    background-color: var(--color-btn);
+    border-radius: 5px;
+    color: var(--color-primary);
+    transition: all .5s;
+}
+.from .cardtext .read:hover{
+    background-color: var(--color-secand);
+}
+
+
+
+
+
+
+
+

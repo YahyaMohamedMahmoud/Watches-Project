@@ -1,0 +1,37 @@
+/* Prata Font */
+@font-face {
+    font-family:Prata-Regular;
+    src: url(../fonts/Prata-Regular.ttf);
+}
+/* Prata Font */
+
+/* Rubik Font */
+@font-face {
+    font-family:Rubik-Black;
+    src: url(../fonts/Rubik-Black.ttf);
+}
+@font-face {
+    font-family:Rubik-Bold;
+    src: url(../fonts/Rubik-Bold.ttf);
+}
+@font-face {
+    font-family:Rubik-ExtraBold;
+    src: url(../fonts/Rubik-ExtraBold.ttf);
+}
+@font-face {
+    font-family:Rubik-Light;
+    src: url(../fonts/Rubik-Light.ttf);
+}
+@font-face {
+    font-family:Rubik-Medium;
+    src: url(../fonts/Rubik-Medium.ttf);
+}
+@font-face {
+    font-family:Rubik-Regular;
+    src: url(../fonts/Rubik-Regular.ttf);
+}
+@font-face {
+    font-family:Rubik-SemiBold;
+    src: url(../fonts/Rubik-SemiBold.ttf);
+}
+/* Rubik Font */

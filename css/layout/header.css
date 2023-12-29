@@ -1,0 +1,73 @@
+.header{
+    padding: 10px 0;
+    z-index: 20;
+    position: relative;
+}
+.header .cart{
+position: absolute;
+right: 7%;
+top: 23px;
+}
+.header .navbar-brand img{
+    max-width: 150px;
+}
+.header .nav-item {
+    padding: 0 10px;
+}
+.header .navbar-nav{
+    padding-inline-end: 70px;
+}
+.header .nav-item a{
+    color: var(--color-primary);
+    font-size: 17px;
+    transition: all .5s;
+}
+.header .nav-item a:hover{
+    color: var(--color-secand);
+}
+.header .nav-item .active{
+    color: var(--color-secand);
+}
+.header .cart {
+    padding-bottom: 8px;
+}
+.header .cart a{
+    color: var(--color-primary);
+    padding: 0 12px;
+    transition: all .5s;
+}
+.header .cart a:hover{
+    color: var(--color-secand);
+}
+.headerFixed{
+    position: fixed;
+    top: -50px;
+    right: 0;
+    left: 0;
+    transform: translateY(50px);
+    transition: all .5s;
+    z-index: 20;
+    background-color: var(--bg-dark);
+}
+.up{
+    padding: 20px 25px;
+    border-radius: 3px;
+    transform: rotate(135deg);
+    background-color: var(--color-secand);
+    border: 1px solid var(--color-secand);
+    z-index: 11;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .5s;
+}
+.up i{
+    transform: rotate(225deg);
+    color: var(--color-primary);
+}
+.show{
+    opacity: 1;
+    visibility: visible;
+}

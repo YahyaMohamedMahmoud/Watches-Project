@@ -1,0 +1,81 @@
+footer .cardfooter .cardlogo{
+    max-width: 180px;
+}
+footer .cardfooter .cardtextpara p{
+    color: var(--color-of-border);
+    font-size: 14px;
+    margin-bottom: 15px;
+    font-family:Rubik-Regular;
+}
+footer .cardfooter .social a{
+    padding: 10px 13px;
+    background-color:var(--color-btn);
+    border-radius: 50%;
+    margin-inline-end: 4px;
+}
+footer .cardfooter .social a i{
+    color: var(--color-logo);
+    transition: all .5s;
+}
+footer .cardfooter .social a:hover i{
+    color: var(--color-primary);
+}
+footer .cardfooter .social .facebook{
+    padding: 10px 16px;
+}
+footer .cardfooter .social .google{
+    padding: 10px 11px;
+}
+footer .cardfooter .social .instagram{
+    padding: 10px 14px;
+}
+footer .cardfooter2 h6{
+    font-size: 20px;
+}
+footer .cardfooter2 ul li{
+    margin-bottom: 16px;
+}
+footer .cardfooter2 ul li a{
+    font-size: 14px;
+    color: var(--color-of-border);
+    font-family:Rubik-Regular;
+    transition: all .5s;
+}
+footer .cardfooter2 ul li a:hover{
+    color: var(--color-primary);
+    padding-inline-start: 10px;
+}
+footer .cardfooter2 ul li img{
+    max-width: 80px;
+    align-items: center;
+}
+footer .cardfooter2 ul li h3{
+    font-size: 14px;
+}
+footer .cardfooter2 ul li .number{
+    font-size: 12px;
+}
+footer .textfooter ul li {
+    margin-inline-end: 30px;
+}
+footer .textfooter {
+    border-top: 1px solid var(--color-btn);
+    border-bottom: 1px solid var(--color-btn);
+    padding: 30px 0;
+    margin-bottom: 10px;
+}
+footer .textfooter ul li a{
+    color: var(--color-of-border);
+    font-size: 18px;
+    transition: all .5s;
+}
+footer .textfooter ul li a:hover{
+    color: var(--color-primary);
+}
+footer .copy p{
+    font-size: 15px;
+    color: var(--color-of-border);
+}
+footer .copy a{
+    color: var(--color-secand);
+}

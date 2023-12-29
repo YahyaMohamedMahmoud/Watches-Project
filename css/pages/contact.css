@@ -1,0 +1,42 @@
+.our .ourtext h2{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.our .ourtext map{
+    width: 100%;
+}
+.leave .leavetext h3{
+    font-size: 24px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--color-of-border);
+}
+.leave .logout{
+    width: 90%;
+    margin: auto;
+    padding-top: 30px;
+}
+.leave .logout label{
+    text-transform: capitalize;
+    color: var(--color-of-border);
+    padding-inline-end: 20px;
+    display: inline-block;
+}
+.leave .logout .email{
+    padding-inline-end: 26px;
+}
+.leave .logout textarea{
+    width: 90%;
+    background-color:var(--color-btn);
+    border: 1px solid transparent;
+    margin-left: 70px;
+    margin-top: -20px;
+    margin-bottom: 40px;
+    color: var(--color-primary);
+}
+.leave .logout textarea:focus{
+    outline: none;
+}
+.leave .logout .click2{
+width: 17%;
+text-align: end;
+}

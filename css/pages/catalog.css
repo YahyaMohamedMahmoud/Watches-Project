@@ -1,0 +1,235 @@
+/* shop sec style start */
+.shop .shoptext h1{
+    font-size: 48px;
+}
+.shop .shopimg .shopcard{
+    position: relative;
+    overflow: hidden;
+}
+.shop .shopimg .shopcard::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.427);
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: all .5s;
+}
+.shop .shopimg .shopcard:hover::after{
+    opacity: 1;
+}
+.shop .shopimg .shopcard img{
+    transition: all .5s;
+}
+.shop .shopimg .shopcard:hover img{
+    transform: scale(1.1);
+}
+.shop .shopimg .shopcard .shoptext2{
+    position: absolute;
+    bottom: 7%;
+    text-align: center;
+    left: 25px;
+    z-index: 1;
+}
+.shop .shopimg .shopcard .shoptext2 p{
+    color: var(--color-secand);
+}
+.shop .shopimg .shopcard .shoptext2 h2{
+    font-size: 27px;
+    margin-bottom: 10px;
+}
+.shop .shopimg .shopcard .shoptext2 a{
+    color: var(--color-of-border);
+    font-size: 14px;
+    text-decoration: underline;
+    transition: all .5s;
+}
+.shop .shopimg .shopcard .shoptext2 a:hover{
+    color: var(--color-secand);
+}
+.shop .shopimg .shopcard .shoptext3{
+    left: 18%;
+}
+.shop .shopimg .shopcard .shoptext4{
+    left: 13%;
+}
+/* shop sec style end */
+
+/* pro sec style start */
+.pro2{
+    border-top: 1px solid var(--color-btn);
+}
+.pro .slide .categ h2{
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.pro .slide .categ .form-check label{
+    text-transform: capitalize;
+    font-family:Rubik-Light;
+    color: var(--color-of-border);
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all .5s;
+}
+.pro .slide .categ .form-check-input{
+    background-color: transparent;
+    border: 1px solid var(--color-of-border);
+}
+.pro .slide .categ .form-check-input:focus{
+    box-shadow: black;
+}
+.pro .slide .categ .form-check:hover label{
+    color: var(--color-primary);
+}
+.pro .slide .categ2{
+    position: relative;
+    overflow: hidden;
+}
+.pro .slide .categ2::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.497);
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: all .5s;
+}
+.pro .slide .categ2:hover::after {
+    opacity: 1;
+}
+.pro .slide .categ2:hover img{
+    transform: scale(1.1);
+}
+.pro .slide .categ2 img{
+    transition: all .5s;
+}
+.pro .filter .filter1{
+    padding: 5px;
+    border: 1px solid transparent;
+    background-color: transparent;
+    margin-inline-start: 10px;
+}
+.pro .filter{
+    margin-top: 10px;
+    border: 1px solid var(--color-btn);
+    padding: 10px 0;
+    border-radius: 10px;
+    position: relative;
+}
+.pro .filter .filter1 i{
+    font-size: 20px;
+    color: var(--color-of-border);
+    transition: all .5s;
+}
+.pro .filter .filter1:hover i{
+    color: var(--color-primary);
+}
+.pro .filter .filter1::after{
+    content: "3";
+    width: 20px;
+    height: 23px;
+    background-color: var(--color-secand);
+    position: absolute;
+    top: -14px;
+    left: 14px;
+    border-radius: 10px;
+    font-size: 13px;
+    opacity: 0;
+    transition: all .5s;
+    color: black;
+}
+.pro .filter .filter1:hover::after{
+    opacity: 1;
+}
+.pro .filter .filter2{
+    padding: 5px;
+    border: 1px solid transparent;
+    background-color: transparent;
+    margin-inline-start: 10px;
+    position: relative;
+}
+.pro .filter .filter2 i{
+    font-size: 20px;
+    color: var(--color-of-border);
+    transition: all .5s;
+}
+.pro .filter .filter2::after{
+    content: "4";
+    width: 20px;
+    height: 26px;
+    background-color: var(--color-secand);
+    position: absolute;
+    top: -24px;
+    left: 8px;
+    border-radius: 10px;
+    font-size: 15px;
+    opacity: 0;
+    transition: all .5s;
+}
+.pro .filter .filter2:hover::after{
+    opacity: 1;
+}
+.pro .filter .filter3::after{
+    content: "List";
+    width: 50px;
+    height: 20px;
+    background-color: var(--color-secand);
+    position: absolute;
+    top: -24px;
+    left: -8px;
+    border-radius: 5px;
+    font-size: 13px;
+    opacity: 0;
+    transition: all .5s;
+    font-family:Prata-Regular;
+}
+.pro .filter .filter3{
+    padding: 5px;
+    border: 1px solid transparent;
+    background-color: transparent;
+    margin-inline-start: 10px;
+    position: relative;
+}
+.pro .filter .filter3 i{
+    font-size: 20px;
+    color: var(--color-of-border);
+    transition: all .5s;
+}
+.pro .filter .filter3:hover::after{
+    opacity: 1;
+}
+.pro .filter .input-search{
+    width: 60%;
+    background-color: transparent;
+    border: 1px solid var(--color-of-border);
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: var(--color-primary);
+    display: inline-block;
+}
+.pro .filter .input-search:focus{
+    outline: none;
+}
+.pro .filter label{
+    color: var(--color-of-border);
+    text-transform: capitalize;
+}
+.pro .filter select{
+    background-color: black;
+    border-color: transparent;
+    color: var(--color-primary);
+    border-radius: 5px;
+    font-size: 15px;
+}
+.join2{
+    border: 1px solid var(--color-btn);
+}
+.join .jointext .sign{
+    font-size: 15px;
+}
+
+

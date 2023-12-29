@@ -1,0 +1,39 @@
+/* vendors style */
+@import url("vendors/all.css");
+@import url("vendors/animate.css");
+@import url("vendors/bootstrap.min.css");
+@import url("vendors/fontawesome.min.css");
+@import url("vendors/splide.min.css");
+/* vendors style */
+
+/* base style */
+@import url("base/base.css");
+/* base style */
+
+/* component style*/
+@import url("component/component.css");
+/* component style*/
+
+/* layout style */
+@import url("layout/header.css");
+@import url("layout/footer.css");
+/* layout style */
+
+
+/* pages style */
+@import url("pages/home.css");
+@import url("pages/catalog.css");
+@import url("pages/wishlist.css");
+@import url("pages/product.css");
+@import url("pages/about.css");
+@import url("pages/blog.css");
+@import url("pages/register.css");
+@import url("pages/thank.css");
+@import url("pages/log.css");
+@import url("pages/contact.css");
+@import url("pages/checkout.css");
+/* pages style */
+
+/* responsive style */
+@import url("responsive/responsive.css");
+/* responsive style */

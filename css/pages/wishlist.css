@@ -1,0 +1,54 @@
+.table tr .img{
+    padding-top: 10px;
+}
+.table tr .first{
+    padding-top: 40px;
+}
+
+.table tr td .remove::after{
+    content: "Remove";
+    width: 50px;
+    height: 20px;
+    background-color: var(--color-secand);
+    position: absolute;
+    top: -29px;
+    left: 9px;
+    opacity: 0;
+    color: var(--color-primary);
+    font-size: 12px;
+    border-radius: 5px;
+    transition: all .5s;
+    font-family:Rubik-Regular;
+}
+.table tr td .remove:hover::after{
+    opacity: 1;
+}
+.table tr td .add{
+    padding: 10px 50px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-family:Prata-Regular;
+    position: static;
+    transition: all .5s;
+}
+.table tr td .add:hover{
+    color: var(--color-primary);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

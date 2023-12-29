@@ -1,0 +1,683 @@
+@media screen and (max-width:1024px) {
+    .header .nav-item a{
+        color: var(--color-primary);
+        font-size: 12px;
+        transition: all .5s;
+    } 
+    .header .cart{
+        position: absolute;
+        right: 2%;
+        top: 25px;
+    } 
+    .pro .filter select{
+      display: none;
+    }
+    .pro .filter label{
+      display: none;
+    }
+    .pro .filter .input-search{
+      width: 59%;
+      margin-inline-start: 5px;
+    }
+    #lightView{
+      width: 60%;
+      padding: 20px;
+  }
+  #lightView .fa-solid{
+    top: -5%;
+    right: -40%;
+}
+  #lightView .cardwatch img{
+      padding: 20px;
+      max-width: 180px;
+      margin-top: 30px;
+  }
+  #lightView .cardtext a{
+      font-size: 10px;
+  }
+  #lightView .cardtext .btn3{
+    padding: 8px 20px;
+    font-size: 12px;
+    margin-bottom: 2px;
+}
+#lightView .mt-5{
+  margin-top: 0px !important;
+}  
+#lightView .cardtext .watchpara{
+  font-size: 10px;
+  padding: 5px 0;
+}
+#lightView .cardtext .share h4{
+font-size: 14px;
+}
+#lightView .cardtext .share a{
+  padding: 5px 11px;
+}
+.desc .desctext .nav{
+  margin: auto;
+  width: 60%;
+}
+.from .cardtext{
+  margin-top: 30px;
+}
+}
+@media screen and (max-width:992px) {
+    .header .nav-item a{
+        color: var(--color-primary);
+        font-size: 12px;
+        transition: all .5s;
+    } 
+    #lightBoxVideo i {
+      top: 8%;
+      right: 8%;
+    }
+    .pro .filter select{
+      display: none;
+    }
+    .pro .filter label{
+      display: none;
+    }
+    #lightView{
+      width: 60%;
+      padding: 20px;
+  }
+  #lightView .fa-solid{
+    top: -5%;
+    right: 0px;
+}
+  #lightView .cardwatch img{
+      padding: 20px;
+      max-width: 180px;
+      margin-top: 30px;
+  }
+  #lightView .cardtext a{
+      font-size: 10px;
+  }
+  #lightView .cardtext .btn3{
+    padding: 8px 20px;
+    font-size: 12px;
+    margin-bottom: 2px;
+}
+#lightView .mt-5{
+  margin-top: 0px !important;
+}  
+#lightView .cardtext .watchpara{
+  font-size: 10px;
+  padding: 5px 0;
+}
+#lightView .cardtext .share h4{
+font-size: 14px;
+}
+#lightView .cardtext .share a{
+  padding: 5px 11px;
+}
+.desc .desctext .nav{
+  margin: auto;
+  width: 100%;
+}
+.from .cardtext{
+  margin-top: 30px;
+}
+}
+@media screen and (max-width:768px) {
+    .navbar-toggler{
+        background-color: var(--color-primary);
+    }
+    .header .cart{
+        position: absolute;
+        right: 45%;
+        top: 15px;
+    }   
+    .header .navbar-brand img{
+        max-width: 100px;
+    }
+    .header .nav-item:first-child {
+        margin-top: 10px;
+    }
+    .home .hometext {
+        width: 90%;
+        left: 5%;
+    }
+    .home .splide__arrow {
+        height: 3em;
+        width: 3em;
+    }
+    .home .hometext .offer {
+        font-size: 12px;
+      }
+      .home .hometext h1 {
+        font-size: 40px;
+    }
+    .home .hometext .start span {
+        font-size: 15px;
+      }
+      .home .hometext .link {
+        padding-top: 20px;
+      }
+      .home .hometext .para{
+        font-size: 12px;
+      }
+      .home .hometext .start{
+        font-size: 12px;
+      }
+      .desgin .card2 {
+        margin-bottom: 20px;
+      }
+      .desgin .card2 .desgintext p{
+        font-size: 12px;
+      }
+      .desgin .card2 .desgintext h2{
+        font-size: 15px;
+      }
+      .desgin .card2 .desgintext .from{
+        font-size: 12px;
+      }
+      .ps-5{
+        padding-left: 10px !important;
+      }
+      .product2::after{
+        width: 10%;
+    }
+      .product2 .btn{
+        padding: 10px 10px;
+        font-size: 14px;
+    }
+    .cardimg .overlay .card3 .btn{
+        top: 30%;
+        width: 70%;
+        left:15%;
+    }
+    .cardimg .overlay2 .card3 .btn{
+        position: absolute;
+        top: 34%;
+        width: 79%;
+        left: 10%;
+        padding: 13px;
+    }
+    .cardimg .overlay{
+        height: 490px;
+    }
+    .video {
+        height: 500px;
+      }
+      .video .btnVideo {
+        font-size: 20px;
+        padding: 15px 24px;
+      }
+      #lightBoxVideo i {
+        top: 10%;
+        right: 5%;
+      }
+      .video iframe{
+        width: 100%;
+        height: 200px;
+        margin-top: 20px;
+      }
+      .new .newtext h5 {
+        font-size: 28px;
+        margin-top: 20px;
+      }
+      .new .newtext .link {
+        padding-top: 40px;
+      }
+      .this .carousel .carousel-item .thistext {
+        width: 100%;
+      }
+      .this .carousel .carousel-item .thistext p {
+        font-size: 10px;
+        line-height: 20px;
+        margin-bottom: 5px;
+      }
+      .this .carousel .carousel-item .thistext h5 {
+        font-size: 18px;
+      }
+      .carousel-indicators {
+        margin: 30px;
+      }
+      .join .jointext h6 {
+        font-size: 20px;
+      }
+      .join .jointext p {
+        font-size: 12px;
+      }
+      .join .jointext .btn {
+        width: 100%;
+        font-size: 14px;
+        margin-top: 20px;
+      }
+      .join .jointext .input {
+        width: 100%;
+        padding: 14px;
+      }
+      .trend .card2 {
+        margin-bottom: 20px;
+      }
+      .trend .card2 .desgintext {
+        position: absolute;
+        top: 14%;
+        left: 10%;
+        z-index: 1;
+      }
+      .trend .card2 .desgintext h2 {
+        font-size: 15px;
+      }
+      .trend .card2 .desgintext .from {
+        font-size: 10px;
+        margin-bottom: 3px !important;
+      }
+      .trend .card2 .desgintext a{
+        color: var(--color-secand);
+        text-decoration: underline;
+        font-size: 12px;
+      }
+      footer .cardfooter .social {
+        margin-bottom: 20px;
+      }
+      footer .textfooter ul li {
+        margin-inline-end: 18px;
+    }
+    footer .textfooter {
+        padding: 10px 0;
+        margin-bottom: 10px;
+    }
+    footer .textfooter ul li a{
+        color: var(--color-of-border);
+        font-size: 17px;
+        transition: all .5s;
+    } 
+    #lightView{
+      width: 60%;
+      padding: 20px;
+  }
+  #lightView .fa-solid{
+      top: -90%;
+      right: 0px;
+  }
+  #lightView .cardwatch img{
+      padding: 20px;
+      max-width: 180px;
+      margin-top: 30px;
+  }
+  #lightView .cardtext a{
+      font-size: 10px;
+  }
+  #lightView .cardtext .btn3{
+    padding: 8px 20px;
+    font-size: 12px;
+    margin-bottom: 2px;
+}
+#lightView .mt-5{
+  margin-top: 0px !important;
+}  
+#lightView .cardtext .watchpara{
+  font-size: 10px;
+  padding: 5px 0;
+}
+#lightView .cardtext .share h4{
+font-size: 14px;
+}
+#lightView .cardtext .share a{
+  padding: 5px 11px;
+}
+.input-number{
+  width: 12%;
+  padding: 2px;
+  border: 1px solid #dcdcdc;
+  margin-top: 4px;
+}
+.pro .pro2 .slide .categ2 img{
+    max-width: 150px;
+}
+.pro .filter select{
+  display: none;
+}
+.pro .filter label{
+  display: none;
+
+}
+.desc .desctext .nav{
+  margin: auto;
+  width: 100%;
+}
+.leave .logout textarea{
+  width: 90%;
+  background-color:var(--color-btn);
+  border: 1px solid transparent;
+  margin-left: 0px;
+  margin-top: 6px;
+  margin-bottom: 40px;
+  color: var(--color-primary);
+}
+.from .cardtext{
+  margin-top: 30px;
+}
+.new1 .card1{
+  margin-bottom: 30px;
+}
+.check .check3 .btn {
+  margin-bottom: 20px;
+}
+
+}
+@media screen and (max-width:600px) {
+    .navbar-toggler{
+        background-color: var(--color-primary);
+    }
+    .header .cart{
+        position: absolute;
+        right: 30%;
+        top: 15px;
+    }   
+    .header .navbar-brand img{
+        max-width: 100px;
+    }
+    .header .nav-item:first-child {
+        margin-top: 10px;
+    }
+    .home .hometext {
+        width: 90%;
+        left: 5%;
+    }
+    .home .splide__arrow {
+        height: 3em;
+        width: 3em;
+    }
+    .home .hometext .offer {
+        font-size: 12px;
+      }
+      .home .hometext h1 {
+        font-size: 40px;
+    }
+    .home .hometext .start span {
+        font-size: 15px;
+      }
+      .home .hometext .link {
+        padding-top: 20px;
+      }
+      .home .hometext .para{
+        font-size: 12px;
+      }
+      .home .hometext .start{
+        font-size: 12px;
+      }
+      .desgin .card2 {
+        margin-bottom: 20px;
+      }
+      .ps-5{
+        padding-left: 10px !important;
+      }
+      .product2::after{
+        width: 10%;
+    }
+      .product2 .btn{
+        padding: 10px 10px;
+        font-size: 14px;
+    }
+    .cardimg .overlay .card3 .btn{
+        top: 39%;
+    }
+    .cardimg .overlay2 .card3 .btn{
+        position: absolute;
+        top: 34%;
+        width: 79%;
+        left: 10%;
+        padding: 13px;
+    }
+    .cardimg .overlay{
+        height: 540px;
+    }
+    .video {
+        height: 500px;
+      }
+      .video .btnVideo {
+        font-size: 20px;
+        padding: 15px 24px;
+      }
+      #lightBoxVideo i {
+        top: 10%;
+        right: 5%;
+      }
+      .video iframe{
+        width: 100%;
+        height: 200px;
+        margin-top: 20px;
+      }
+      .new .newtext h5 {
+        font-size: 28px;
+        margin-top: 20px;
+      }
+      .new .newtext .link {
+        padding-top: 40px;
+      }
+      .this .carousel .carousel-item .thistext {
+        width: 100%;
+      }
+      .this .carousel .carousel-item .thistext p {
+        font-size: 10px;
+        line-height: 20px;
+        margin-bottom: 5px;
+      }
+      .this .carousel .carousel-item .thistext h5 {
+        font-size: 18px;
+      }
+      .carousel-indicators {
+        margin: 30px;
+      }
+      .join .jointext h6 {
+        font-size: 20px;
+      }
+      .join .jointext p {
+        font-size: 12px;
+      }
+      .join .jointext .btn {
+        width: 100%;
+        font-size: 14px;
+        margin-top: 20px;
+      }
+      .join .jointext .input {
+        width: 100%;
+        padding: 14px;
+      }
+      .trend .card2 {
+        margin-bottom: 20px;
+      }
+      .trend .card2 .desgintext {
+        position: absolute;
+        top: 10%;
+        left: 10%;
+        z-index: 1;
+      }
+      .trend .card2 .desgintext h2 {
+        font-size: 12px;
+      }
+      .trend .card2 .desgintext .from {
+        font-size: 10px;
+        margin-bottom: -4px !important;
+      }
+      .trend .card2 .desgintext a{
+        font-size: 10px;
+      }
+      footer .cardfooter .social {
+        margin-bottom: 30px;
+      }
+      footer .textfooter ul li {
+        margin-inline-end: 8px;
+    }
+    footer .textfooter {
+        padding: 10px 0;
+        margin-bottom: 10px;
+    }
+    footer .textfooter ul li a{
+        font-size: 12px;
+    }
+  #lightView{
+      width: 90%;
+      padding: 20px;
+  }
+  #lightView .fa-solid{
+      top: -80%;
+      right: 0px;
+  }
+  #lightView .cardwatch img{
+      padding: 20px;
+      max-width: 180px;
+      margin-top: 30px;
+  }
+  #lightView .cardtext a{
+      font-size: 10px;
+  }
+  #lightView .cardtext .btn3{
+    padding: 8px 20px;
+    font-size: 12px;
+    margin-bottom: 2px;
+}
+#lightView .mt-5{
+  margin-top: 0px !important;
+}  
+#lightView .cardtext .watchpara{
+  font-size: 10px;
+  padding: 5px 0;
+}
+#lightView .cardtext .share h4{
+font-size: 14px;
+}
+#lightView .cardtext .share a{
+  padding: 5px 11px;
+}
+.input-number{
+  width: 12%;
+  padding: 2px;
+  border: 1px solid #dcdcdc;
+  margin-top: 4px;
+}
+.shop .shopimg .shopcard .shoptext2{
+  left: 48px;
+  z-index: 1;
+}
+.shop .shopimg .shopcard .shoptext2 h2{
+  font-size: 20px;
+}
+.shop .shopimg .shopcard .shoptext3{
+  left: 20%;
+}
+.pro .slide{
+  display: none;
+}
+.pro .filter .input-search{
+  width: 90%;
+  margin-inline-start: 15px;
+}
+.pro .filter select{
+  display: none;
+}
+.pro .filter label{
+  display: none;
+
+}
+.cardimg .overlay3{
+  width: 100%;
+height: 540px;
+}
+.desc .desctext .nav{
+  margin: auto;
+  width: 100%;
+}
+.desc .desc2{
+  background-color: var(--color-btn);
+  padding: 10px 20px;
+}
+.desc .desctext .nav li .nav-link{
+  font-size: 14px;
+}
+.desc .desctext .tab-content .tab-pane .custom h3{
+  font-size: 14px;
+}
+.accordion-button2{
+  width: 50%;
+  right: 5px;
+  top: 38px;
+  font-size: 12px;
+}
+.accordion-body textarea{
+  width: 100%;
+  padding: 20px;
+  height: 200px;
+}
+.leave .logout textarea{
+  width: 100%;
+  background-color:var(--color-btn);
+  border: 1px solid transparent;
+  margin-left: 0px;
+  margin-top: 6px;
+  margin-bottom: 40px;
+  color: var(--color-primary);
+}
+.from .cardtext{
+  margin-top: 30px;
+}
+.log .logtext{
+  color: var(--color-of-border);
+  border-bottom: 1px solid var(--color-of-border);
+  padding-bottom: 10px;
+}
+.log .logout{
+  padding: 20px 0;
+  margin-inline-start: 10px;
+}
+.new1 .card1{
+  margin-bottom: 30px;
+}
+.table{
+  width: 100%;
+}
+.table th{
+  background-color: transparent;
+  color: var(--color-primary);
+  text-transform: capitalize;
+  font-family:Prata-Regular;
+  font-size: 12px;
+  border: 1px solid var(--color-of-border);
+}
+.table tr td img{
+  max-width: 100px;
+  margin: auto;
+  padding: 5px;
+  background-color: var(--color-primary);
+}
+.table tr .linkname{
+  padding-top: 10px;
+  font-size: 10px;
+}
+.table tr td .img2{
+  padding-top: 10px;
+}
+.table tr td a{
+  color: var(--color-secand);
+  font-size: 10px;
+}
+.remove{
+  padding: 5px 10px;
+  font-size: 10px;
+}
+.table tr .first{
+  padding-top: 20px;
+}
+.table tr td:last-child{
+  display: none;
+}
+.table thead th:last-child{
+  display: none;
+}
+.tag .tagtext h1{
+  font-size:50px;
+}
+.tag .tagtext p{
+  font-size: 20px;
+}
+.tag .tagtext a{
+  padding: 12px 20px;
+  font-size: 15px;
+  transition: all .5s;
+}
+
+}

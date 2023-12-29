@@ -1,0 +1,65 @@
+.check .checktext p{
+    color: var(--color-of-border);
+    font-size: 14px;
+}
+.check .checktext a{
+    color: var(--color-secand);
+    text-decoration: underline;
+    transition: all .3s;
+}
+.check input{
+    padding: 8px;
+    background-color: var(--color-btn);
+    border: 1px solid var(--color-btn);
+    color: var(--color-primary);
+    margin-bottom: 20px;
+}
+.check .form-control2{
+    width: 100%;
+}
+.check .check2{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.check .check2 h3{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.check .check2 .form-select2{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 8px;
+    background-color: var(--color-btn);
+    border: 1px solid var(--color-btn);
+    color: var(--color-of-border);
+
+}
+.check .check2 .form-control1{
+    width: 100%;
+}
+.check .check3 p{
+    color: var(--color-of-border);
+    margin-bottom: 30px;
+}
+.check .check3 .btn{
+    padding: 14px 60px;
+    text-transform: capitalize;
+    color: var(--color-primary);
+    background-color: var(--color-secand);
+    transition: all .5s;
+}
+.check .check3 .btn:hover{
+    background-color: var(--color-of-border);
+}
+.check .cardcheck img{
+    max-width: 150px;
+}
+.check .cardcheck .cardtext1 p{
+    font-size: 13px;
+    font-family:Prata-Regular;
+    color: var(--color-secand);
+}
+.check .cardcheck .cardtext1 .inc{
+    color: var(--color-of-border);
+    font-size: 12px;
+}
